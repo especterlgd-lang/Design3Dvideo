@@ -1,0 +1,41 @@
+# Dependências
+node_modules/
+
+# Gravações e mídias pessoais/pesadas (não versionar)
+assets/recordings/
+assets/audio/
+assets/models/
+assets/logos/
+exports/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.glb
+*.gltf
+*.bin
+*.ktx2
+*.hdr
+*.exr
+
+# Artefatos de build/cache
+dist/
+build/
+.remotion/
+.cache/
+*.log
+npm-debug.log*
+
+# Ambiente local
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Skills instaladas por `npx skills add` (reinstaláveis; versões fixadas em skills-lock.json)
+.agents/
+.claude/skills/
