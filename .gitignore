@@ -39,3 +39,7 @@ Thumbs.db
 # Skills instaladas por `npx skills add` (reinstaláveis; versões fixadas em skills-lock.json)
 .agents/
 .claude/skills/
+
+# Ferramentas externas e pesos de modelo (clonados/baixados localmente)
+tools/
+*.pth
